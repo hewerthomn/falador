@@ -10,9 +10,9 @@ Falador a partir do terminal, powered by Google Translate
 
 * Divirta-se!
 
-  `./falador "Onde está o futuro que nos prometeram?`
+  `./falador "Quem roeu a roupa do rei de Roma?`
   
-  `./falador -l en "Luke, I am your father.`
+  `./falador -l en "I'm fucking crazy, bitch`
 
 
 Daqui
