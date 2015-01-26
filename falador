@@ -1,0 +1,8 @@
+#!/bin/bash
+l=pt-BR
+if [ "$1" == "-l" ];then
+  shift
+  l=$1
+  shift
+fi
+curl -A "Falador" translate\.google\.com/translate_tts -d "tl=$l&ie=UTF-8&q=$@" | mpg123 -;
